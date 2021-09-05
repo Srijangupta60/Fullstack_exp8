@@ -15,12 +15,17 @@ a{
     background-color: grey;
     padding: 50px;
     text-align: center;
-    
     margin-bottom: 10px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    
 }
 .top-left{
     position: absolute;
-    top: 200px;
+    top: 300px;
     left: 30px;
     color: thistle;
     font-size: 80px;
